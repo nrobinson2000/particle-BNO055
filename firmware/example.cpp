@@ -1,6 +1,22 @@
+/*************************
+
+   Wiring:
+
+   BNO055 -> Particle
+   VIN -> VIN
+   GND -> GND
+   SDA -> D0
+   SCL -> D1
+
+   Ported to Particle devices by Nathan Robinson
+   https://github.com/nrobinson2000
+   On 2017-1-21
+
+*************************/
+
+#include "Particle.h"
 #include "OneWire.h"
 #include "particle-BNO055.h"
-#include "Particle.h"
 
 SYSTEM_MODE(MANUAL);
 SYSTEM_THREAD(ENABLED);
@@ -13,7 +29,7 @@ void setup()
         Serial.println("Orientation Sensor Test");
         Serial.println("");
 
-        /* Initialise the sensor */
+        /* Initialize the sensor */
         if(!bno.begin())
         {
                 /* There was a problem detecting the BNO055 ... check your connections */
