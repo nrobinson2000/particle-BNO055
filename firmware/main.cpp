@@ -7,7 +7,7 @@ SYSTEM_THREAD(ENABLED);
 
 Adafruit_BNO055 bno = Adafruit_BNO055(55);
 
-void setup(void)
+void setup()
 {
         Serial.begin(9600);
         Serial.println("Orientation Sensor Test");
@@ -26,7 +26,7 @@ void setup(void)
         bno.setExtCrystalUse(true);
 }
 
-void loop(void)
+void loop()
 {
         /* Get a new sensor event */
         sensors_event_t event;
