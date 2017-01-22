@@ -1,3 +1,5 @@
+[![Donate Bitcoin](https://img.shields.io/badge/donate-bitcoin-orange.svg)](https://nrobinson2000.github.io/donate-bitcoin)
+
 # particle-BNO055 - Particle Port of [Adafruit_BNO055](https://github.com/adafruit/Adafruit_BNO055)
 
 This library is designed for building locally using [po-util](https://github.com/nrobinson2000/po-util).
