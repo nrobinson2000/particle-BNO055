@@ -23,7 +23,7 @@
 ****************************************************************************/
 
 #include "Particle.h"
-#include "OneWire.h"
+/*#include "OneWire.h"*/
 #include <math.h>
 #include <limits.h>
 #include "particle-BNO055.h"
