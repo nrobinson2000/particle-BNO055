@@ -19,3 +19,12 @@ To add the libraries to a project simply run:
 $ po lib add particle-BNO055
 $ po lib add OneWire
 ```
+
+UPDATE: You can now use the library example manger to load the `simple` example right into your project!
+
+```bash
+$ po init DEVICE_TYPE BNO055
+$ cd BNO055
+$ po lib get https://github.com/nrobinson2000/particle-BNO055
+$ po lib ex load particle-BNO055 simple
+```
