@@ -4,20 +4,16 @@
 
 This library is designed for building locally using [po-util](https://github.com/nrobinson2000/po-util).
 
-This library depends on [OneWire](https://github.com/Hotaman/OneWireSpark).
-
-You can easily download `particle-BNO055` and `OneWire` with po-util using the following commands:
+You can easily download `particle-BNO055` with po-util using the following commands:
 
 ```bash
 $ po lib get https://github.com/nrobinson2000/particle-BNO055
-$ po lib get https://github.com/Hotaman/OneWireSpark OneWire
 ```
 
 To add the libraries to a project simply run:
 
 ```bash
 $ po lib add particle-BNO055
-$ po lib add OneWire
 ```
 
 UPDATE: You can now use the library example manger to load the `simple` example right into your project!

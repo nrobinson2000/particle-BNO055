@@ -15,7 +15,6 @@
 *************************/
 
 #include "Particle.h"
-#include "OneWire.h"
 #include "particle-BNO055.h"
 
 SYSTEM_MODE(MANUAL);
